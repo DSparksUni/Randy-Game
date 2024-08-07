@@ -37,11 +37,20 @@ typedef struct Context_Extra {
 
 // #include "oogabooga/examples/text_rendering.c"
 // #include "oogabooga/examples/custom_logger.c"
-#include "oogabooga/examples/renderer_stress_test.c"
+// #include "oogabooga/examples/renderer_stress_test.c"
 // #include "oogabooga/examples/tile_game.c"
 // #include "oogabooga/examples/audio_test.c"
 // #include "oogabooga/examples/custom_shader.c"
 // #include "oogabooga/examples/growing_array_example.c"
 
 // This is where you swap in your own project!
-// #include "entry_yourepicgamename.c"
+#include "game/include/randy_consts.h"
+#include "game/src/randy_consts.c"
+
+#include "game/include/randy_entity.h"
+#include "game/src/randy_entity.c"
+
+#include "game/include/randy_anime.h"
+#include "game/src/randy_anime.c"
+
+#include "game/src/randy_main.c"

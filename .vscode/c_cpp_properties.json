@@ -3,14 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/game/src",
+                "${workspaceFolder}/game/include"
             ],
             "defines": ["DEBUG"],
             "forcedInclude": [
                 "build.c"
             ],
             "intelliSenseMode": "clang-x64",
-            "compilerPath": "C:/Program Files/LLVM/bin/clang",
+            "compilerPath": "C:/Users/dwspa/Libraries/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang",
             "cStandard": "c11"
         }
     ],
